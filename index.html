@@ -5,27 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EXCO INGENIERÍA</title>
-    <meta name="description" content="EXCO INGENIERIA S.A. es una empresa Arequipeña dedicada en brindar a sus clientes productos y servicios de calidad en todas
+    <meta name="description" content="EXCO INGENIERIA S.A. es una empresa peruana dedicada a brindar a sus clientes productos y servicios de calidad en todas
     sus operaciones.">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    
+    <link href="css/theme-tangerine.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet"> -->
+    <link class="vmx" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700%7CRubik:300,400,500" rel="stylesheet" type="text/css">
+    <link class="vmx" href="css/font-rubiklato.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body class=" " data-smooth-scroll-offset='64'>
     <a id="start"></a>
     <div class="nav-container ">
-        <div class="bar bar--sm visible-xs">
+        <div class="bar bar--sm visible-xs bar--mobile-sticky">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-3 col-sm-2">
                         <a href="index.html">
-                            <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
-                            <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                            <img class="logo logo-dark" alt="logo" src="images/exco-logo.jpg" />
+                            <img class="logo logo-light" alt="logo" src="images/exco-logo.jpg" />
                         </a>
                     </div>
                     <div class="col-xs-9 col-sm-10 text-right">
@@ -39,48 +44,36 @@
             <!--end of container-->
         </div>
         <!--end bar-->
-        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='366px:pos-fixed'>
+        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent " data-scroll-class='100px:pos-fixed'>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-1 col-sm-2 hidden-xs">
+                    <div class="col-md-2 col-sm-5 hidden-xs">
                         <div class="bar__module">
                             <a href="index.html">
-                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
-                                <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                                <img class="logo logo-dark" alt="logo" src="images/exco-logo.jpg" />
+                                <img class="logo logo-light hidden-sm" alt="logo" src="images/exco-logo.jpg" />
                             </a>
                         </div>
                         <!--end module-->
                     </div>
-                    <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                    <div class="col-md-10 col-sm-7 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> <a href="" class="inner-link" target="_self">
+                                <li> <a href="#empresa" class="inner-link" target="_self">
                                 nosotros</a> </li>
-                                <li> <a href="" class="inner-link" target="_self">
+                                <li> <a href="#servicios" class="inner-link" target="_self">
                                 Unidades de Negocio</a> </li>
-                                <li> <a href="" class="inner-link" target="_self">
+                                <li> <a href="#proyectos" class="inner-link" target="_self">
                                 Proyectos</a> </li>
                                 <li>
-                                    <a href="" class="inner-link" target="_self">
+                                    <a href="#clientes" class="inner-link" target="_self">
                                          clientes</a>
                                 </li>
-                                <li> <a href="" class="inner-link" target="_self">
+                                <li> <a href="#contactos" class="inner-link" target="_self">
                                 contacto</a> </li>
                             </ul>
                         </div>
-                        <!--end module-->
-                        <div class="bar__module">
-                            <a class="btn btn--sm type--uppercase" href="#">
-                                <span class="btn__text">
-                                    Try Builder
-                                </span>
-                            </a>
-                            <a class="btn btn--sm btn--primary type--uppercase" href="#">
-                                <span class="btn__text">
-                                    Buy Now
-                                </span>
-                            </a>
-                        </div>
+                        
                         <!--end module-->
                     </div>
                 </div>
@@ -91,6 +84,500 @@
         <!--end bar-->
     </div>
     <div class="main-container">
+        <!-- Presentacion -->
+        <section id="inicio" class="cover cover-features section--ken-burns imagebg height-100 space--lg" data-scrim-bottom="9">
+            <div class="background-image-holder" style="background: url("img/construction-1.jpg";); opacity: 1;">
+                <img alt="background" src="img/construction-1.jpg">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-md-7">
+                        <h1>
+                            EXSO INGENIERÍA
+                        </h1>
+                        <P class="lead">Estamos comprometidos a trabajar con eficiencia y seguridad los 365 días del año.
+                        Nos esforzamos en ofrecerle soluciones personalizadas.
+                        </P>
+                        <a class="btn btn--primary type--uppercase inner-link" href="#proyectos">
+                            <span class="btn__text">
+                                Ver proyectos
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <!--end of row-->
+                >
+            </div>
+            <!--end of container-->
+        </section>
+
+        <!-- empresa -->
+        <section id="empresa" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                        <h2> Nosotros </h2>
+                        <p class="lead">
+                            EXCO INGENIERIA S.A. es una empresa peruana con varios años de experiencia que brinda a sus clientes productos y servicios de calidad  a cargo de profesionales calificados y con equipos y maquinaria propias.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>  
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6 col-md-5 col-md-offset-1">
+                        <div class="tabs-container" data-content-align="left">
+                            <ul class="tabs clearfix">
+                                <li class="active ">
+                                    <div class="tab__title text-center">
+                                        <span class="h5">Misión</span>
+                                    </div>
+                                    <div class="tab__content text-center">
+                                        <i class="icon icon--lg icon-Arrow-Through color--primary-1 "></i>
+                                        <h3>Misión</h3>
+                                        <p class="text-justify">
+                                            Brindar a nuestros clientes productos y servicios de calidad en todas sus operaciones, en sus distintos campos de aplicación
+                                            en la industria nacional, privilegiando una relación de confianza que se traduce en un compromiso de largo plazo.
+                                            <br> Esta empeñada en contribuir al éxito de sus clientes. Para lograrlo se esfuerza en conocerlos muy bien, ofreciéndoles
+                                            soluciones a sus necesidades, excediendo sus expectativas e identificando oportunidades que los ayuden a ser exitosos
+                                            en sus negocios.
+                                        </p>
+                                        <br>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tab__title text-center">
+                                        <span class="h5">Visión</span>
+                                    </div>
+                                    <div class="tab__content text-center">
+                                        <i class="icon icon--lg icon-Eye-Visible color--primary-1"></i>
+                                        <h3>Visión</h3>
+                                        <p class="text-justify">
+                                            Ser una empresa de ingeniería reconocida como Líder en el ámbito nacional e internacional por un alto nivel de calidad y
+                                            responsabilidad en los productos y Servicios que brindamos; Contar con certificaciones de seguridad y calidad en beneficio
+                                            de nuestro personal y nuestra comunidad, fomentando la práctica de valores y teniendo como prioridad la seguridad, calidad
+                                            y la protección del medio ambiente, contribuyendo de esta manera con el desarrollo productivo de nuestros clientes.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end of tabs container-->
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                        <img alt="Image" class="border--round box-shadow-wide" src="http://lorempixel.com/800/800/nightlife">
+                    </div>
+                </div>                
+                <!-- 2columns -->
+                <!-- <div class="row">
+                    <div class="col-md-5 col-md-offset-1 col-sm-6">
+                        <div class="feature feature-6 boxed boxed--lg  text-center ">
+                            <i class="icon icon--lg icon-Archery-2 color--primary-1 "></i>
+                            <h3>Misión</h3>
+                            <p class="text-justify">
+                                Brindar a nuestros clientes productos y servicios de calidad en todas sus operaciones, en sus distintos campos de aplicación
+                                en la industria nacional, privilegiando una relación de confianza que se traduce en un compromiso de largo plazo.<br>
+                                 Esta empeñada en contribuir al éxito de sus clientes. Para lograrlo se esfuerza en conocerlos muy bien, ofreciéndoles soluciones
+                                a sus necesidades, excediendo sus expectativas e identificando oportunidades que los ayuden a ser exitosos en sus negocios.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" col-md-5 col-sm-6"> 
+                        <div class="feature feature-6 boxed boxed--lg  text-center">
+                            <i class="icon icon--lg icon-Eye-Visible color--primary-1"></i>
+                            <h3>Visión</h3>
+                            <p class="text-justify">
+                                Ser una empresa de ingeniería reconocida como Líder en el ámbito nacional e internacional por un alto nivel de calidad y
+                                responsabilidad en los productos y Servicios que brindamos; Contar con certificaciones de seguridad y calidad en
+                                beneficio de nuestro personal y nuestra comunidad, fomentando la práctica de valores y teniendo como prioridad la
+                                seguridad, calidad y la protección del medio ambiente, contribuyendo de esta manera con el desarrollo productivo
+                                de nuestros clientes.
+                                </p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- end row -->
+                
+            </div>
+            <!--end of container-->
+        </section>
+        
+        <!-- Unidades de Negocio -->
+        <section id="servicios" class="bg--secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                        <h2> Unidades de Negocio</h2>
+                        <p class="lead">
+                             Nuestra política es proporcionar productos y servicios de acuerdo a los compromisos adquiridos con los clientes, así como realizar un proceso de mejora continua. 
+                             Buscamos ser la empresa de servicios más completa y competitiva.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+            <!--end of container-->
+        </section>
+        <!-- serv 1   -->
+        <section class="imageblock switchable feature-large bg--secondary space--xs">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder" style="background: url(&quot;img/education-1.jpg&quot;); opacity: 1;">
+                    <img alt="image" src="img/education-1.jpg">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Construcción</h2>
+                        <ul class="list-vinetas">
+                            <li>Mantenimiento industrial en la modalidad de outsourcing</li>
+                            <li>Realizamos obras civiles por encargo</li>
+                            <li>Realizamos obras en defensa rivereña</li>
+                            <li>Construcción de carreteras y accesos</li>
+                            <li>Realizamos trabajos en  topografía general.</li>
+                            <li>Elaboramos planos de ingeniería básica o de detalle para la fabricación de maquinas industriales.</li>
+                            <li>Contamos con personal de QA/QC para garantizar el cumplimiento de procedimientos de normas técnicas y estándares exigidos
+                                durante cada proyecto.</li>
+                        </ul>
+                        <a href="proyectos.html">Ver fotos</a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <!-- serv 2 -->
+        <section class="imageblock switchable switchable--switch feature-large bg--secondary space--xs">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder" style="background: url(&quot;img/inner-5.jpg&quot;); opacity: 1;">
+                    <img alt="image" src="img/inner-5.jpg">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Minería</h2>
+                        <ul class="list-vinetas">
+                            <li>Mantenimiento minero en la modalidad de outsourcing</li>
+                            <li>Realizamos movimientos de tierras, material de mina (relaves)</li>
+                            <li>Realizamos voladura controlada</li>
+                            <li>Realizamos construcción e implementación de campamentos</li>
+                            <li>Planos de fabricación y montaje de estructuras pesadas, medianas y livianas</li>
+                            <li>Realizamos fabricaciones y/o reparaciones en campo como tanques, tolvas, molinos, chancadoras.</li>
+                            <li>Realizamos trabajos por encargo de fabricación, recuperación, reparación y por encargo de equipos electromecánicos.</li>
+                            <li>Contamos con personal de QA/QC para garantizar el cumplimiento de procedimientos de normas técnicas y estándares exigidos
+                                durante cada proyecto.</li>
+                        </ul>
+                        <a href="proyectos.html">Ver fotos</a>
+                        </p>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <!-- serv-3 -->
+        <section class="imageblock switchable feature-large bg--secondary space--xs">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder" style="background: url(&quot;img/inner-6.jpg&quot;); opacity: 1;">
+                    <img alt="image" src="img/inner-6.jpg">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Alquiler de Maquinaria</h2>
+                        <p class="">
+                        Contamos con una flota moderna de equipos y maquinaria pesada y liviana  para alquilar.<br>
+                         Para la inspección de NTD contamos con los certificados vigentes de nuestros equipos.
+                        </p>
+                        <a href="proyectos.html">Ver fotos</a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <!-- fin uniddes de negocio -->
+
+        <!-- proyectos -->
+        <section id="proyectos" class="text-center bg--primary-1 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                        <h2> Proyectos </h2>
+                        <p class="lead">
+                         Contamos con profesionales y técnicos de niveles poli-funcionales, formados para satisfacer las necesidades de nuestros
+                        clientes, así como equipos y maquinaria que nos permiten trabajar con eficiencia.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>                
+                <div class="row">
+                    <div class="slider" data-paging="true" data-arrows="true">
+                        <ul class="slides">
+                            <li class="col-sm-4 col-xs-6 slide">
+                                <div class="project-thumb">
+                                    <a href="proyectos.html">
+                                        <img alt="Image" class="border--round" src="img/work-6.jpg" />
+                                    </a>
+                                    <h4>Nombre de proyecto</h4>
+                                    <span>Construcción</span>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-6 slide">
+                                <div class="project-thumb">
+                                    <a href="proyectos.html">
+                                        <img alt="Image" class="border--round" src="img/work-2.jpg" />
+                                    </a>
+                                    <h4>Nombre de proyecto</h4>
+                                    <span> Minería</span>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-6 slide">
+                                <div class="project-thumb">
+                                    <a href="proyectos.html">
+                                        <img alt="Image" class="border--round" src="img/work-3.jpg" />
+                                    </a>
+                                    <h4>Nombre de proyecto</h4>
+                                    <span>Construcción</span>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 col-xs-6 slide">
+                                <div class="project-thumb">
+                                    <a href="proyectos.html">
+                                        <img alt="Image" class="border--round" src="img/work-4.jpg" />
+                                    </a>
+                                    <h4>Nombre de Proyecto</h4>
+                                    <span>Minería</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+        <!-- clientes -->
+        <section id="clientes" class="bg--secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                        <h2> Principales Clientes </h2>
+                        <p class="lead">
+                             La calidad de la relación con sus clientes determina el futuro de EXCO INGENIERIA.
+                        </p>
+                    </div>
+                </div>
+                <!-- end row -->
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1 col-sm-6">
+                        <div class="boxed boxed--border">
+                            <h5 class="text-uppercase">Instituciones Privadas</h5>
+                            <ul class="list-bookmark-item text-capitalize">
+                                <li>Instituto de ingenieros de minas del peru (perumin- convencion minera)</li>
+                                <li>Construcción y administración s.a. (casa)</li>
+                                <li>Cooperativa azucarera chucarapi</li>
+                                <li>Lima ingenieria y construccion s.a.</li>
+                                <li>Prodigy global group inc</li>
+                                <li>Cardea metals corporation</li>
+                                <li>Caja municipal de arequipa</li>
+                                <li>Jorvex s.a.</li>
+                                <li>Nuñez maq s.r.l.</li>
+                                <li>Gescop s.r.l.</li>
+                                <li>Peruana de combustibles s.a. ( pecsa)</li>
+                                <li>Peruana de petroleo s.a.</li>
+                                <li>Graña montero petroleo ( gm&p)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="boxed boxed--border">
+                            <h5 class="text-uppercase">Instituciones Públicas</h5>
+                            <ul class=" list-bookmark-item text-capitalize">
+                                <li>Gobierno regional de puno</li>
+                                <li>Gobierno regional de tacna</li>
+                                <li>Gobierno regional de arequipa</li>
+                                <li>Copesco-cusco</li>
+                                <li>Junta de usuarios de irrigacion de majes</li>
+                                <li>Comision de regantes de vitor</li>
+                                <li>Junta de usuarios del valle de majes</li>
+                                <li>Municipalidad distrital de choco-arequipa</li>
+                                <li>Municipalidad provincial de moquegua</li>
+                                <li>Municipalidad distrital de ilabaya</li>
+                                <li>Municipalidad distrital de cocachacra-arequipa</li>
+                                <li>Municipalidad distrital de lluta</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- contatco   -->
+        <section id="contacto" class="switchable imagebg space--sm">
+            <div class="background-image-holder" style="background: url(&quot;img/inner-8.jpg&quot;); opacity: 1;">
+                <img alt="background" src="img/inner-8.jpg">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class=" text-center col-sm-12">
+                        <h2>Contáctenos</h2>
+                        <p class="lead">Estamos empeñados en contribuir al éxito de sus proyectos</p>
+                
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                
+                <div class="row">
+                    <div class="col-xs-10 col-sm-5 col-sm-offset-0">
+                        <h4>
+                            <i class="icon icon-Map-Marker2 icon--xs color--primary"></i>
+                            Ubicación
+                        </h4>
+                        
+                        <p>
+                            Urb. La Encalada H23 - José Luis Bustamante y Rivero
+                            <br>
+                            <br>
+                            <b>Oficina administrativa: </b>
+                            <br>Calle Jacinto Ibáñez 315 – Parque Industrial
+                            <br> MEGACENTRO Oficina D-202
+                            <br>AREQUIPA
+                            <br>
+                        </p>
+                        <br>
+                        
+                        <!-- <h4>
+                                                        <i class="icon icon-Email icon--xs color--primary"></i> Email
+                                                    </h4>
+                                                    <p>
+                                                        informes@grupoproteccionambiental.com
+                                                        <br> comercializacion@grupoproteccionambiental.com
+                                                        <br> operacion1@grupoproteccionambiental.com
+                                                    
+                                                    </p> -->
+                        <h4>
+                            <i class="icon icon-Phone-2 icon--xs color--primary"></i>
+                            Teléfonos
+                        </h4>
+                        <p class="">
+                            <b>Fijo: </b> 054-211546
+                            <br>
+                            <b>Celulares: </b> 989076780 - 989077490
+                        </p>
+                    </div>
+                    <div class="col-xs-10 col-sm-6 col-sm-offset-0 ">
+                        <!-- <hr class="short"> -->
+                        <br>
+                        <br>
+                        <div class="row">
+                            <form class="form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly."
+                                novalidate="true">
+                                <div class="col-sm-6 col-xs-12">
+                                    <label>Nombre y Apellidos (*)</label>
+                                    <input type="text" name="Name" class="validate-required" />
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <label>Empresa</label>
+                                    <input type="text" name="Empresa" class="" />
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <label>Teléfono (*)</label>
+                                    <input type="text" name="Telefono" class="validate-required" />
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <label>Correo Electrónico (*)</label>
+                                    <input type="email" name="email" class="validate-required validate-email" />
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <label>Mensaje (*)</label>
+                                    <textarea rows="4" name="Message" class="validate-required"></textarea>
+                                </div>
+                                <div class="col-sm-5 col-md-4 col-xs-6">
+                                    <br>
+                                    <button type="submit" class="btn btn--primary type--uppercase">Enviar Mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer-3 text-center-xs space--xs bg--dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img alt="Image" class="logo" src="images/exco-logo.jpg">
+                        <ul class="list-inline list--hover">
+                            <li>
+                                    <span class="type--fine-print">EXCO INGENIERIA -  Minería, Ingenieria y Construcción</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 text-right text-center-xs">
+                        <!-- <ul class="social-list list-inline list--hover">
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-google icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-twitter icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-facebook icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-instagram icon icon--xs"></i>
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="type--fine-print">
+                             Responsabilidad, Seguridad y Puntualidad ante todo. 
+                        </p>
+                    </div>
+                    <div class="col-sm-6 text-right text-center-xs">
+                        <span class="type--fine-print">©
+                            <span class="update-year">2017</span> Exco Ingenieria S.A. Desarrollado por <a class="" href="#">ATIX PLUS</a>
+                        </span> 
+                        
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </footer>
     </div>
 
     <!--<div class="loader"></div>-->
@@ -98,7 +585,8 @@
         <i class="stack-interface stack-up-open-big"></i>
     </a>
     <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/typed.min.js"></script>
+    <script src="js/flickity.min.js"></script>
+    <!-- <script src="js/typed.min.js"></script> -->
     <script src="js/isotope.min.js"></script>
     <script src="js/granim.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
