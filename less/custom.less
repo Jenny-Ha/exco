@@ -1,0 +1,98 @@
+//Variables
+@color-primary: #f18f01;//#238B53
+@color-primary-1: #006e90 !important;
+// @color-secondary: ;
+
+/*Hlpers*/
+.list-bookmark-item {
+    padding-left: 1.75em;
+    li {
+        position: relative;
+        &:before {
+            font-family: 'iconsmind';
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            content: "\e6d5";
+            color: @color-primary;
+            position: absolute;
+            left: -1.75em;
+            top: 0.5em;
+
+        }
+    }
+}
+
+.list-vinetas {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+/* General*/
+.bar {
+    //For devices
+    .logo-wrap, 
+    .bar__module {
+        max-height: 45px;
+    }
+    .logo {
+        max-height: 60px;
+        top: -14px;
+    }
+    .logo-light.bg {
+        background-color: lightgrey;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .bar {
+        .logo {
+            top: -4px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .bar {
+        .bar__module {
+            max-height: initial;
+        }
+    }
+    .lead {
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+
+}
+
+
+/*SECCIONES*/
+#empresa {
+    .tabs {
+        display: block;
+        border: none;
+        li {
+            width: 49%;
+            float: left;
+        }
+        li.active {
+            border-top: 2px solid @color-primary-1;
+            .tab__title span {
+                color: @color-primary-1;
+            }
+        }
+    }
+    .tabs-content li {
+        .tab__content {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}
+#servicios {
+    padding-bottom: 0;
+    .feature-7 {
+        height: 250px !important;
+    }
+}
